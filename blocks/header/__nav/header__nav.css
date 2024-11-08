@@ -1,0 +1,37 @@
+.header__nav {
+  max-width: 1200px;
+  max-height: 200px;
+  display: flex;
+  margin: 0 auto;
+}
+
+@media (max-width: 1250px) {
+  .header__nav {
+    max-width: 960px;
+    max-height: 165px;
+  }
+}
+
+@media (max-width: 960px) {
+  .header__nav {
+    max-width: 640px;
+  }
+}
+
+@media (max-width: 650px) {
+  .header__nav {
+    max-width: 460px;
+    max-height: 76px;
+  }
+}
+
+@media (max-width: 465px) {
+  .header__nav {
+    max-width: 340px;
+  }
+}
+
+
+
+
+

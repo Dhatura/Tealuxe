@@ -1,0 +1,17 @@
+.header__nav-icons {
+  display: flex;
+  padding: 86px 0 85px 0;
+  margin-left: auto;
+}
+
+@media (max-width: 1250px) {
+  .header__nav-icons {
+    padding: 68px 0 68px 0;
+  }
+}
+
+@media (max-width: 650px) {
+  .header__nav-icons {
+    padding: 23px 0 24px 0;
+  }
+}

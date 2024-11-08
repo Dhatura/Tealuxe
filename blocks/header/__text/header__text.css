@@ -1,0 +1,29 @@
+.header__text {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.21;
+  padding: 20px 0 0 200px;
+  max-width: 558px;
+}
+
+@media (max-width: 1250px) {
+  .header__text {
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 650px) {
+  .header__text {
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 465px) {
+  .header__text {
+    font-family: 'OpenSans';
+    font-size: 13px;
+    line-height: 1.36;
+    padding-top: 10px;
+  }
+}

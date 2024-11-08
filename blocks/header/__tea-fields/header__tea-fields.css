@@ -1,0 +1,25 @@
+.header__tea-fields {
+  background-image: url(../../../images/background_tea_fields.jpg);
+  height: 500px;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+
+@media (max-width: 465px) {
+  .header__tea-fields {
+    height: 367px;
+  }
+
+  .header__tea-fields::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+    z-index: -1;
+  }
+}

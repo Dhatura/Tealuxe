@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>TeaLuxe</title>
+</head>
+<body class="root">
+  <header class="header">
+    <div class="header__nav">
+      <!-- Бургер-меню, которое будет отображаться на мобильных устройствах-->
+      <div class="header__burger-menu" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <img src="./images/icon_tealuxe.svg" alt="tealuxe icon" class="header__icon">
+      <nav class="header__nav-list">
+        <a href="#" class="header__nav-item">Black</a>
+        <a href="#" class="header__nav-item">Green</a>
+        <a href="#" class="header__nav-item">White</a>
+        <a href="#" class="header__nav-item">Oolong</a>
+        <a href="#" class="header__nav-item">Pu-erh</a>
+      </nav>
+      <nav class="header__nav-icons">
+        <a href="#" class="header__nav-icon"><img src="./images/icon_basket.svg" alt="basket icon"></a>
+        <a href="#" class="header__nav-icon"><img src="./images/icon_user.svg" alt="user icon"></a>
+        <a href="#" class="header__nav-icon"><img src="./images/icon_search.svg" alt="search icon"></a>
+      </nav>
+    </div>
+
+    <article class="header__tea-fields">
+      <h1 class="header__title">
+        A cup of tea is a moment of calm in the chaos of life
+      </h1>
+      <p class="header__text">
+        Wide selection of high-quality teas from all over the world, carefully curated by tea experts.
+      </p>
+    </article>
+  </header>
+  <main class="main">
+
+  </main>
+  <footer class="footer">
+
+  </footer>
+
+  <!-- Меню для мобильной версии -->
+  <div class="overlay" id="overlay" onclick="toggleMenu()"></div>
+  <div class="mobile-menu" id="mobileMenu">
+    <button onclick="toggleMenu()" class="mobile-menu__close-btn"><img src="./images/icon_close-button.svg" alt="close menu button"></button>
+    <nav class="mobile-menu__nav-list">
+      <a href="#" class="mobile-menu__nav-item">Black</a>
+      <a href="#" class="mobile-menu__nav-item">Green</a>
+      <a href="#" class="mobile-menu__nav-item">White</a>
+      <a href="#" class="mobile-menu__nav-item">Oolong</a>
+      <a href="#" class="mobile-menu__nav-item">Pu-erh</a>
+    </nav>
+    <hr>
+    <nav class="mobile-menu__nav-contacts">
+      <a href="#" class="mobile-menu__nav-contacts-item">Contact Us</a>
+      <a href="#" class="mobile-menu__nav-contacts-item">Our Blog</a>
+      <a href="#" class="mobile-menu__nav-contacts-item">Shipping and Delivery</a>
+    </nav>
+    <nav class="mobile-menu__nav-icons">
+      <a href="#" class="mobile-menu__nav-icon"><img src="./images/icon_basket.svg" alt="basket icon"></a>
+      <a href="#" class="mobile-menu__nav-icon"><img src="./images/icon_user.svg" alt="user icon"></a>
+      <a href="#" class="mobile-menu__nav-icon"><img src="./images/icon_search.svg" alt="search icon"></a>
+    </nav>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+.header__burger-menu {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 4px;
+  margin: 73px 0 72px 0;
+}
+
+.header__burger-menu span {
+  width: 40px;
+  height: 2px;
+  background-color: black;
+  display: block;
+}
+
+@media (max-width: 960px) {
+  .header__burger-menu {
+    display: flex;
+  }
+}
+
+@media (max-width: 650px) {
+  .header__burger-menu {
+    margin: 29px 0;
+  }
+}

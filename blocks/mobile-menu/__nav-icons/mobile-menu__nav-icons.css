@@ -1,0 +1,6 @@
+.mobile-menu__nav-icons {
+  background-color: #F7F2EA;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 80px 18px;
+}

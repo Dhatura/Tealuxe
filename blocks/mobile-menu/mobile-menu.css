@@ -1,0 +1,18 @@
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 360px;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  opacity: 0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  z-index: 11;
+}
+
+.mobile-menu.active {
+  transform: translate(-50%, 0);
+  opacity: 1;
+}

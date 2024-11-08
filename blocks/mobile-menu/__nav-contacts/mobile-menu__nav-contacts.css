@@ -1,0 +1,6 @@
+.mobile-menu__nav-contacts {
+  display: flex;
+  flex-direction: column;
+  margin: 60px auto;
+  align-items: center;
+}

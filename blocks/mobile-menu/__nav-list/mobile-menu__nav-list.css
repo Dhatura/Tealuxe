@@ -1,0 +1,14 @@
+.mobile-menu__nav-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+hr {
+  background: #F7F2EA;
+  border: none;
+  height: 2px;
+  width: 300px;
+  margin: 0 auto;
+}
