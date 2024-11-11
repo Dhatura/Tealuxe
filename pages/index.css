@@ -28,5 +28,16 @@
 @import url(../blocks/mobile-menu/__nav-icons/mobile-menu__nav-icons.css);
 @import url(../blocks/mobile-menu/__nav-icon/mobile-menu__nav-icon.css);
 
+@import url(../blocks/main/main.css);
+
+@import url(../blocks/collection/collection.css);
+@import url(../blocks/collection/__quote/collection__quote.css);
+@import url(../blocks/collection/__quote/_bgcolor/collection__quote_bgcolor.css);
+@import url(../blocks/collection/__title/collection__title.css);
+@import url(../blocks/collection/__items/collection__items.css);
+@import url(../blocks/collection/__item/collection__item.css);
+@import url(../blocks/collection/__name/collection__name.css);
+@import url(../blocks/collection/__image/collection__image.css);
+
 
 

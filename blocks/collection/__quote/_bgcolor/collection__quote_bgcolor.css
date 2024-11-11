@@ -1,0 +1,31 @@
+.collection__quote_bgcolor {
+  width: 359px;
+  height: 61px;
+  background-color:#F7F2EA;
+  z-index: -1;
+  margin-left: 385px;
+  margin-top: -48px;
+}
+
+@media (max-width: 960px) {
+  .collection__quote_bgcolor {
+    width: 273px;
+    margin-left: 367px;
+  }
+}
+
+@media (max-width: 650px) {
+  .collection__quote_bgcolor {
+    width: 273px;
+    margin-left: 175px;
+    max-width: 120px;
+    max-height: 20px;
+    margin-top: -20px;
+  }
+}
+
+@media (max-width: 465px) {
+  .collection__quote_bgcolor {
+    margin-left: 167px;
+  }
+}

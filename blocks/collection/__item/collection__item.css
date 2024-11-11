@@ -1,0 +1,22 @@
+.collection__item {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1250px) {
+  .collection__item {
+    margin-left: -10px;
+  }
+}
+
+@media (max-width: 960px) {
+  .collection__item {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 465px) {
+  .collection__item {
+    max-width: 180px;
+  }
+}

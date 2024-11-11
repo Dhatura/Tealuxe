@@ -1,0 +1,20 @@
+.collection__items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 60px;
+  justify-content: center;
+}
+
+@media (max-width: 1250px) {
+  .collection__items {
+    margin-top: 30px;
+    gap: 0;
+  }
+}
+
+@media (max-width: 465px) {
+  .collection__items {
+    margin-top: 0;
+  }
+}

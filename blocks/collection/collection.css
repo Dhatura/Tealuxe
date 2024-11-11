@@ -1,0 +1,27 @@
+.collection {
+  display: flex;
+  flex-direction: column;
+  padding-top: 150px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+@media (max-width: 1250px) {
+  .collection {
+    padding-top: 120px;
+  }
+}
+
+@media (max-width: 650px) {
+  .collection {
+    padding-top: 60px;
+  }
+}
+
+@media (max-width: 465px) {
+  .collection {
+    padding-top: 70px;
+  }
+}
+
+
