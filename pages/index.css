@@ -58,5 +58,15 @@
 @import url(../blocks/blog/__link-arrow/blog__link-arrow.css);
 @import url(../blocks/blog/__button/blog__button.css);
 
+@import url(../blocks/subscribe/subscribe.css);
+@import url(../blocks/subscribe/__title/subscribe__title.css);
+@import url(../blocks/subscribe/__content/subscribe__content.css);
+@import url(../blocks/subscribe/__description/subscribe__description.css);
+@import url(../blocks/subscribe/__form/subscribe__form.css);
+@import url(../blocks/subscribe/__input/subscribe__input.css);
+@import url(../blocks/subscribe/__button/subscribe__button.css);
+@import url(../blocks/subscribe/__privacy/subscribe__privacy.css);
+@import url(../blocks/subscribe/__checkbox/subscribe__checkbox.css);
+
 
 

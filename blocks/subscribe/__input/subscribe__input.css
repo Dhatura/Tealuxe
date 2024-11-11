@@ -1,0 +1,20 @@
+.subscribe__input {
+  font-family: "OpenSans";
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.5;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(184, 181, 139, 1);
+
+}
+
+.subscribe__input::placeholder {
+  color: rgba(184, 181, 139, 1);
+}
+
+@media (max-width: 465px) {
+  .subscribe__input {
+    max-width: 205px;
+  }
+}

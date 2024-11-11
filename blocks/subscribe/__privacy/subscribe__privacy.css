@@ -1,0 +1,10 @@
+.subscribe__privacy {
+  grid-column: span 2;
+  font-family: "OpenSans";
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.36;
+  display: flex;
+  gap: 10px;
+  align-items: start;
+}

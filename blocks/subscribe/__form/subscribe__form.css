@@ -1,0 +1,22 @@
+.subscribe__form {
+  display: grid;
+  grid-template-columns: auto 116px;
+  grid-template-rows: auto auto;
+  column-gap: 25px;
+  row-gap: 12px;
+  max-width: 580px;
+}
+
+@media (max-width: 650px) {
+  .subscribe__form {
+    max-width: 460px;
+    column-gap: 20px;
+  }
+}
+
+@media (max-width: 465px) {
+  .subscribe__form {
+    max-width: 340px;
+    column-gap: 15px;
+  }
+}
