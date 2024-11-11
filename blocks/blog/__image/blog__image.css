@@ -1,0 +1,23 @@
+@media (max-width: 1250px) {
+  .blog__image {
+    max-width: 230px;
+  }
+}
+
+@media (max-width: 960px) {
+  .blog__image {
+    max-width: 270px;
+  }
+}
+
+@media (max-width: 650px) {
+  .blog__image {
+    max-width: 230px;
+  }
+}
+
+@media (max-width: 465px) {
+  .blog__image {
+    max-width: 270px;
+  }
+}

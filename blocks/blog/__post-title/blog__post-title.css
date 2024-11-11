@@ -1,0 +1,14 @@
+.blog__post-title {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.21;
+  margin: 0 0 10px 0;
+  flex: 0 1 86px;
+}
+
+@media (max-width: 465px) {
+  .blog__post-title {
+    margin-bottom: 5px;
+    flex-basis: 0;
+  }
+}

@@ -1,0 +1,29 @@
+.blog__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 58px;
+  row-gap: 40px;
+  margin-top: 60px;
+}
+
+@media (max-width: 1250px) {
+  .blog__list {
+    column-gap: 20px;
+    row-gap: 67px;
+  }
+}
+
+@media (max-width: 960px) {
+  .blog__list {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 465px) {
+  .blog__list {
+    margin-top: 30px;
+  }
+}
+
+

@@ -1,0 +1,13 @@
+.blog__author {
+  font-family: "OpenSans";
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.36;
+  justify-self: center;
+}
+
+@media (max-width: 465px) {
+  .blog__author {
+    margin-bottom: 10px;
+  }
+}

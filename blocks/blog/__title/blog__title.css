@@ -1,0 +1,13 @@
+.blog__title {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.21;
+  text-align: center;
+  margin: 0;
+}
+
+@media (max-width: 465px) {
+  .blog__title {
+    font-size: 24px;
+  }
+}
