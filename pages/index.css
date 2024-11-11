@@ -39,5 +39,13 @@
 @import url(../blocks/collection/__name/collection__name.css);
 @import url(../blocks/collection/__image/collection__image.css);
 
+@import url(../blocks/reviews/reviews.css);
+@import url(../blocks/reviews/__title/reviews__title.css);
+@import url(../blocks/reviews/__list/reviews__list.css);
+@import url(../blocks/reviews/__item/reviews__item.css);
+@import url(../blocks/reviews/__text/reviews__text.css);
+@import url(../blocks/reviews/__author/reviews__author.css);
+
+
 
 

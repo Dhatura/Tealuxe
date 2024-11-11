@@ -1,0 +1,45 @@
+.reviews__item {
+  max-width: 280px;
+  color: rgba(21, 22, 24, 1);
+  font-family: "OpenSans";
+}
+
+@media (max-width: 1250px) {
+  .reviews__item:last-of-type {
+    display: none;
+  }
+}
+
+@media (max-width: 960px) {
+  .reviews__item:last-of-type {
+    display: block;
+  }
+}
+
+@media (max-width: 650px) {
+  .reviews__item {
+    max-width: 220px;
+  }
+
+  .reviews__item:nth-of-type(3) {
+    order: 2;
+  }
+
+  .reviews__item:nth-of-type(2) {
+    order: 4;
+  }
+}
+
+@media (max-width: 465px) {
+  .reviews__item {
+    max-width: 340px;
+  }
+
+  .reviews__item:nth-of-type(3) {
+    display: none;
+  }
+
+  .reviews__item:nth-of-type(2) {
+    display: none;
+  }
+}

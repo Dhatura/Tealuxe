@@ -1,0 +1,28 @@
+.reviews__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 26px;
+  padding: 60px 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 960px) {
+  .reviews__list {
+    column-gap: 76px;
+    row-gap: 30px;
+  }
+}
+
+@media (max-width: 650px) {
+  .reviews__list {
+    padding: 50px 0;
+    column-gap: 20px;
+  }
+}
+
+@media (max-width: 465px) {
+  .reviews__list {
+    padding-top: 30px;
+  }
+}
