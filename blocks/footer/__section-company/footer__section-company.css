@@ -1,0 +1,21 @@
+.footer__section-company {
+  margin-right: 170px;
+}
+
+@media (max-width: 1250px) {
+  .footer__section-company {
+    margin-right: 69px;
+  }
+}
+
+@media (max-width: 960px) {
+  .footer__section-company {
+    margin-right: 81px;
+  }
+}
+
+@media (max-width: 465px) {
+  .footer__section-company {
+    margin-right: 0;
+  }
+}

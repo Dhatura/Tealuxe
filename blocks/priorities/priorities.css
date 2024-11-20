@@ -1,0 +1,25 @@
+.priorities {
+  margin: 150px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 1250px) {
+  .priorities {
+    margin: 120px auto;
+  }
+}
+
+@media (max-width: 650px) {
+  .priorities {
+    margin: 60px auto;
+  }
+}
+
+
+@media (max-width: 465px) {
+  .priorities {
+    margin: 50px auto;
+  }
+}

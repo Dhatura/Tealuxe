@@ -1,0 +1,31 @@
+.footer__copyright {
+  font-family: "OpenSans";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.36;
+  margin-right: 192px;
+}
+
+@media (max-width: 1250px) {
+  .footer__copyright {
+    margin-right: 40px;
+  }
+}
+
+@media (max-width: 960px) {
+  .footer__copyright {
+    margin-right: 31px;
+  }
+}
+
+@media (max-width: 650px) {
+  .footer__copyright {
+    margin-right: 153px;
+  }
+}
+
+@media (max-width: 465px) {
+  .footer__copyright {
+    margin-right: 53px;
+  }
+}

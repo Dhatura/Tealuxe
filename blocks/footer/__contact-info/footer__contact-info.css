@@ -1,0 +1,11 @@
+.footer__contact-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+@media (max-width: 465px) {
+  .footer__contact-info {
+    margin-right: 50px;
+  }
+}

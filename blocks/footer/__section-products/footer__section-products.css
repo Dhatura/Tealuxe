@@ -1,0 +1,27 @@
+.footer__section-products {
+  margin-right: 227px;
+}
+
+@media (max-width: 1250px) {
+  .footer__section-products {
+    margin-right: 74px;
+  }
+}
+
+@media (max-width: 960px) {
+  .footer__section-products {
+    margin-right: 65px;
+  }
+}
+
+@media (max-width: 650px) {
+  .footer__section-products {
+    margin-right: 146px;
+  }
+}
+
+@media (max-width: 465px) {
+  .footer__section-products {
+    margin-right: 86px;
+  }
+}

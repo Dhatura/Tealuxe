@@ -1,0 +1,29 @@
+.footer__title {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.21;
+  margin: 0 0 50px;
+}
+
+.footer__title:last-of-type {
+  grid-column: span 2;
+}
+
+@media (max-width: 650px) {
+  .footer__title {
+    margin-bottom: 30px;
+  }
+
+  .footer__title:last-of-type {
+    margin-bottom: 20px;
+    grid-column: span 3;
+  }
+}
+
+@media (max-width: 465px) {
+  .footer__title:last-of-type {
+    margin-bottom: 10px;
+    grid-column: span 2;
+  }
+}
+

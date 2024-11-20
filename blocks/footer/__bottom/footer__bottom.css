@@ -1,0 +1,22 @@
+.footer__bottom {
+  display: flex;
+  margin-left: 200px;
+}
+
+@media (max-width: 1250px) {
+  .footer__bottom {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 960px) {
+  .footer__bottom {
+    margin-left: 65px;
+  }
+}
+
+@media (max-width: 650px) {
+  .footer__bottom {
+    margin-left: 10px;
+  }
+}

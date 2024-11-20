@@ -1,0 +1,33 @@
+.priorities__items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  gap: 30px 49px;
+}
+
+@media (max-width: 1250px) {
+  .priorities__items {
+    column-gap: 210px;
+  }
+}
+
+@media (max-width: 960px) {
+  .priorities__items {
+    column-gap: 90px;
+  }
+}
+
+@media (max-width: 650px) {
+  .priorities__items {
+    row-gap: 50px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 465px) {
+  .priorities__items {
+    row-gap: 40px;
+    margin-top: 60px;
+  }
+}

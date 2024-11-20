@@ -1,0 +1,12 @@
+.footer__quote-author {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1.36;
+  max-width: 130px;
+}
+
+@media (max-width: 650px) {
+  .footer__quote-author {
+    max-width: 100%;
+  }
+}

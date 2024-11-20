@@ -37,7 +37,6 @@
 @import url(../blocks/collection/__items/collection__items.css);
 @import url(../blocks/collection/__item/collection__item.css);
 @import url(../blocks/collection/__name/collection__name.css);
-@import url(../blocks/collection/__image/collection__image.css);
 
 @import url(../blocks/reviews/reviews.css);
 @import url(../blocks/reviews/__title/reviews__title.css);
@@ -68,5 +67,33 @@
 @import url(../blocks/subscribe/__privacy/subscribe__privacy.css);
 @import url(../blocks/subscribe/__checkbox/subscribe__checkbox.css);
 
+@import url(../blocks/priorities/priorities.css);
+@import url(../blocks/priorities/__title/priorities__title.css);
+@import url(../blocks/priorities/__items/priorities__items.css);
+@import url(../blocks/priorities/__item/priorities__item.css);
+@import url(../blocks/priorities/__item-title/priorities__item-title.css);
+@import url(../blocks/priorities/__item-description/priorities__item-description.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__section/footer__section.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__item/footer__item.css);
+@import url(../blocks/footer/__section-products/footer__section-products.css);
+@import url(../blocks/footer/__section-company/footer__section-company.css);
+@import url(../blocks/footer/__section-quote/footer__section-quote.css);
+@import url(../blocks/footer/__quote/footer__quote.css);
+@import url(../blocks/footer/__quote-author/footer__quote-author.css);
+@import url(../blocks/footer/__section-contact/footer__section-contact.css);
+@import url(../blocks/footer/__contact-text/footer__contact-text.css);
+@import url(../blocks/footer/__icon/footer__icon.css);
+@import url(../blocks/footer/__contact-info/footer__contact-info.css);
+@import url(../blocks/footer/__contact-item/footer__contact-item.css);
+@import url(../blocks/footer/__socials/footer__socials.css);
+@import url(../blocks/footer/__bottom/footer__bottom.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__payments/footer__payments.css);
+@import url(../blocks/footer/__payment-icon/footer__payment-icon.css);
 
 

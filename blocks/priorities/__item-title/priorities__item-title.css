@@ -1,0 +1,13 @@
+.priorities__item-title {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1.36;
+  margin: 0 0 10px;
+}
+
+@media (max-width: 465px) {
+  .priorities__item-title {
+    font-size: 20px;
+  }
+}
+
